@@ -1,0 +1,15 @@
+# Instalar OpenSSH Server
+
+sudo apt install openssh-server -y
+
+# Verificar estado del servicio
+
+systemctl status ssh
+
+# Mostrar dirección IP
+
+ip a
+
+# Conexión desde un cliente Windows
+
+ssh usuario1@192.168.1.51
