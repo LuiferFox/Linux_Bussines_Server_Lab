@@ -1,0 +1,21 @@
+# Crear carpeta compartida
+
+sudo mkdir /empresa
+
+# Cambiar grupo propietario
+
+sudo chown :ti /empresa
+
+# Configurar permisos
+
+sudo chmod 770 /empresa
+
+# Verificar permisos
+
+ls -ld /empresa
+
+# Probar permisos
+
+su - soporte
+
+touch /empresa/prueba_soporte.txt
